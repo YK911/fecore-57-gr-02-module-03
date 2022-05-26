@@ -3,33 +3,33 @@ body {
   color: rgba(33, 33, 33, 1); sans-serif}
 
 /* ХЕДЕР */
-.logo {font-family:Raleway; font-size: 28px; font-style: bold; line-height: 1,2; color: rgba(33, 33, 33, 1) }
+.logo {font-family:Raleway; font-size: 28px; font-style: bold; line-height: 1,2; color: rgba(33, 33, 33, 1); font-weight: 700; }
 
-.header-nav-link .nav-link {color: rgba(33, 33, 33, 1); font-style: medium; font-size: 14px; line-height: 1,2 ; }
+.header-nav-link .nav-link {color: rgba(33, 33, 33, 1); font-style: medium; font-size: 14px; line-height: 1,2 ; font-weight: 500; }
 .header-nav-link .nav-link:hover,
-.button-link-portfolio .link-portfolio:focus {color: rgba(33, 150, 243, 1); font-style: medium; font-size: 14px; line-height: 1,2;}
+.button-link-portfolio .link-portfolio:focus {color: rgba(33, 150, 243, 1); font-style: medium; font-size: 14px; line-height: 1,2; font-weight: 500;}
 
-.heder-contakt-link .contakt-link {color: rgba(117, 117, 117, 1); font-style: medium; font-size: 14px; line-height: 1,2;}
-.heder-contakt-link .contakt-link:hover, .heder-contakt-link .contakt-link :focus {color: rgba(33, 150, 243, 1); font-style: medium; font-size: 14px; line-height: 1,2;}
+.heder-contakt-link .contakt-link {color: rgba(117, 117, 117, 1); font-style: medium; font-size: 14px; line-height: 1,2; font-weight: 500;}
+.heder-contakt-link .contakt-link:hover, .heder-contakt-link .contakt-link :focus {color: rgba(33, 150, 243, 1); font-style: medium; font-size: 14px; line-height: 1,2; font-weight: 500;}
 
 /* STUDIO */
 .studio-ha  {font-size: 44px; line-height: 1,4 ; color:
-rgba(255, 255, 255, 1);}
+rgba(255, 255, 255, 1); font-weight: 900;}
 /* FOOTER */
-.studio-button {color: rgba(33, 33, 33, 1);background-color: rgba(245, 244, 250, 1);}
-.studio-button:hover, .studio-button :focus {color: rgba(255, 255, 255, 1); background-color: rgba(33, 150, 243, 1);}
-.studio-hc {font-style: bolt; font-size: 14px; line-height: 1,2 }
+.studio-button {color: rgba(33, 33, 33, 1);background-color: rgba(245, 244, 250, 1);font-weight: 700;}
+.studio-button:hover, .studio-button :focus {color: rgba(255, 255, 255, 1); background-color: rgba(33, 150, 243, 1); font-weight: 700;}
+.studio-hc {font-style: bolt; font-size: 14px; line-height: 1,2; font-weight: 700; }
 .studio-p {font-style: regular; font-size: 14px; line-height: 1,7; color: rgba(117, 117, 117, 1);}
-.studio-hb {font-style: bolt; font-size: 36px; line-height: 1,2;}
-.studio-name {font-style: medium; font-size: 16px; line-height: 1,2;}
+.studio-hb {font-style: bolt; font-size: 36px; line-height: 1,2; font-weight: 700;}
+.studio-name {font-style: medium; font-size: 16px; line-height: 1,2; font-weight: 500; }
 .studio-work {font-style: regular; font-size: 16px; line-height: 1,2; color: rgba(117, 117, 117, 1);}
 /* PORTFOLIO */
 
-.button-link-portfolio .link-portfolio {color: rgba(33, 33, 33, 1);background-color: rgba(245, 244, 250, 1);}
+.button-link-portfolio .link-portfolio {color: rgba(33, 33, 33, 1);background-color: rgba(245, 244, 250, 1); font-weight: 500;}
 
 .button-link-portfolio .link-portfolio:hover,
-.button-link-portfolio .link-portfolio:focus {color: rgba(255, 255, 255, 1); background-color: rgba(33, 150, 243, 1);}
-.portfolio-h {font-style: bold; font-size: 18px; line-height: 2;}
+.button-link-portfolio .link-portfolio:focus {color: rgba(255, 255, 255, 1); background-color: rgba(33, 150, 243, 1); font-weight: 500;}
+.portfolio-h {font-style: bold; font-size: 18px; line-height: 2; font-weight: 700;}
 .portfolio-p {font-style: regular; font-size: 16px; line-height: 1,9 ; color: 
     rgba(117, 117, 117, 1);}
 /* FOOTER */
