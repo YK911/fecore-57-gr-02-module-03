@@ -2,6 +2,9 @@ body {
   font-family: Roboto;
   color: rgba(33, 33, 33, 1); sans-serif}
 
+.hi {list-style: none;}
+.fi {text-decoration: none;}
+
 
 /* ХЕДЕР */
 .logo {font-family: 'Raleway'; sans-serif;
@@ -119,3 +122,8 @@ line-height: 1.9;
 letter-spacing: 0.03em;; color: 
     rgba(117, 117, 117, 1);}
 /* FOOTER */
+.adress {font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em; color: 
+rgba(255, 255, 255, 1);}
