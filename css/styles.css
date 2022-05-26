@@ -1,77 +1,35 @@
-/* СТУДИЯ */
-.studio-body {Font family: Roboto}
-/*Клас логотип */
-.studio-header { background-color: rgba(255, 255, 255, 1);}
-.studio-logo {Font family: Raleway Font style: Bold Font size: 26px Line height:1,2 }
+body {
+  font-family: Roboto;
+  color: rgba(33, 33, 33, 1); sans-serif}
 
-/* Клас навігация */
-.studio-navigation {Font family: Roboto Font style: Medium Font size: 14px Line height: 1,2 ; color: #212121 }
-.studio-navigation :hover, .studio-navigation :focus {Font family: Roboto Font style: Medium Font size: 14px Line height: 1,2;
-    color: #2196F3}
+/* ХЕДЕР */
+.logo {font-family:Raleway; font-size: 28px; font-style: bold; line-height: 1,2; color: rgba(33, 33, 33, 1) }
 
-/* Клас e-mail */
-.studio-email {Font family: Roboto Font style: Medium Font size: 14px Line height: 1.2; color: #212121 }
-.studio-email :hover, .studio-email :focus { Font family: Roboto Font style: Medium Font size: 14px Line height: 1,2; color: #2196F3}
+.header-nav-link .nav-link {color: rgba(33, 33, 33, 1); font-style: medium; font-size: 14px; line-height: 1,2 ; }
+.header-nav-link .nav-link:hover,
+.button-link-portfolio .link-portfolio:focus {color: rgba(33, 150, 243, 1); font-style: medium; font-size: 14px; line-height: 1,2;}
 
+.heder-contakt-link .contakt-link {color: rgba(117, 117, 117, 1); font-style: medium; font-size: 14px; line-height: 1,2;}
+.heder-contakt-link .contakt-link:hover, .heder-contakt-link .contakt-link :focus {color: rgba(33, 150, 243, 1); font-style: medium; font-size: 14px; line-height: 1,2;}
 
-/* Клас секция 1 */
-.studio-first {background-color: rgba(47, 48, 58, 1); width="1600" height="600"}
+/* STUDIO */
+.studio-ha  {font-size: 44px; line-height: 1,4 ; color:
+rgba(255, 255, 255, 1);}
+/* FOOTER */
+.studio-button {color: rgba(33, 33, 33, 1);background-color: rgba(245, 244, 250, 1);}
+.studio-button:hover, .studio-button :focus {color: rgba(255, 255, 255, 1); background-color: rgba(33, 150, 243, 1);}
+.studio-hc {font-style: bolt; font-size: 14px; line-height: 1,2 }
+.studio-p {font-style: regular; font-size: 14px; line-height: 1,7; color: rgba(117, 117, 117, 1);}
+.studio-hb {font-style: bolt; font-size: 36px; line-height: 1,2;}
+.studio-name {font-style: medium; font-size: 16px; line-height: 1,2;}
+.studio-work {font-style: regular; font-size: 16px; line-height: 1,2; color: rgba(117, 117, 117, 1);}
+/* PORTFOLIO */
 
-/* Заголовок  H1*/
-.studio-h-one {Font family: Roboto Font style: Black Font size: 44px Line height: 1,2 Align: Center Vertical; color: #FFFFFF }
+.button-link-portfolio .link-portfolio {color: rgba(33, 33, 33, 1);background-color: rgba(245, 244, 250, 1);}
 
-/* Клас секция 2 */
-.studio-section-second {background-color: #E5E5E5;}
-.studio-section-second-h {Font family: Roboto Font style: Bold Font size: 14px Line height: 1,2 Align: Left Vertical align: Top Letter spacing: 3%;
-     color : #212121}
-.studio-section-second-p {Font family: Roboto Font style: Regular Font size: 14px Line height: 1,2 Align: Left Vertical align: Top Letter spacing: 3% 
-    ; color: #757575}
-
-    /* Клас секция 3 */
-    .studio-section-third {background-color: #E5E5E5;}
-    .studio-section-third-ha {Font family: Roboto Font style: Bold Font size: 36px Line height: 1,2
-    Align: Center Vertical align: Top Letter spacing: 3%; color: #212121}
-
-
-    /* Клас секция 4 */
-    .studio-section-fourth {background-color: rgba(245, 244, 250, 1);}
-    .studio-section-fourth-ha {Font family: Roboto Font style: Bold Font size: 36px Line height: 1,2
-        Align: Center Vertical align: Top Letter spacing: 3%; color: #212121}
-    .studio-section-fourth-hb {Font family: Roboto Font style: Medium Font size: 16px Line height: 1,2
-        Align: Center Vertical align: Top Letter spacing: 3% ; color: rgba(33, 33, 33, 1)}
-.studio-section-fourth {Font family: Roboto Font style: Regular Font size: 16px Line height: 1,2 Align: Center Vertical align: Top 
-    Letter spacing: 3%; color: rgba(117, 117, 117, 1)}
-
-/* Footer */
-.studio-footer {background-color: rgba(47, 48, 58, 1);}
-.studio-footer-address {Font family: Roboto Font style: Regular Font size: 14px Line height: 1,2 
-Align: Left Vertical align: Top Letter spacing: 3% color:rgba(255, 255, 255, 1)}
-.studio-footer-email {Font family: Roboto Font style: Regular Font size: 14px Line height: 1,2 Align: Left Vertical align: Top Letter spacing: 3%; color: rgba(255, 255, 255, 0.6)}
-
-
-
-
-
-
-
-
-
-/* ПОРТФОЛИО */
-.portfolio-body  {Font family: Roboto}
-/*Клас логотип */
-.portfolio-logo {Font family: Raleway Font style: Bold Font size: 26px Line height:1,2}
-/* Клас навігация */
-.porfolio-navigation {Font family: Roboto Font style: Medium Font size: 14px Line height: 1,2;color: #212121}
-.porfolio-navigation :hover, .porfolio-navigation :focus { Font family: Roboto Font style: Medium Font size: 14px Line height: 1,2;color: #2196F3}
-
-/* Клас кнопки */
-.porfolio-button {Font family: Roboto Font style: Medium Font size: 16px Line height: 1,2; background-color:#F5F4FA;}
-.porfolio-button:hover, .porfolio-button :focus {Font family: Roboto Font style: Medium Font size: 16px Line height: 1,2;background-color: #2196F3;}
-
-.portfolio-ha {Font family: Roboto Font style: Bold Font size: 18px Line height: 1,2; color: rgba(33, 33, 33, 1)}
-.portfolio-p {Font family: Roboto Font style: Regular Font size: 16px Line height: 30px Line height: 1,2 ; color:rgba(117, 117, 117, 1)}
-
-/* Footer */
-.portfolio-footer-address {Font family: Roboto Font style: Regular Font size: 14px Line height: 1,2 
-Align: Left Vertical align: Top Letter spacing: 3% color:rgba(255, 255, 255, 1)}
-.portfolio-footer-email {Font family: Roboto Font style: Regular Font size: 14px Line height: 1,2 Align: Left Vertical align: Top Letter spacing: 3%; color: rgba(255, 255, 255, 0.6)}
+.button-link-portfolio .link-portfolio:hover,
+.button-link-portfolio .link-portfolio:focus {color: rgba(255, 255, 255, 1); background-color: rgba(33, 150, 243, 1);}
+.portfolio-h {font-style: bold; font-size: 18px; line-height: 2;}
+.portfolio-p {font-style: regular; font-size: 16px; line-height: 1,9 ; color: 
+    rgba(117, 117, 117, 1);}
+/* FOOTER */

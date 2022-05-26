@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WebStudio HW №2</title>
+    <title>Homework №1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
@@ -13,70 +14,68 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
-  <body class="studio-body">
+  <body>
     <!--HEADER-->
-    <header class="studio-header">
-      <a href="#" class="studio-logo">WebStudio</a>
+    <header>
+      <a href="#" class="logo">WebStudio</a>
 
       <nav>
-        <ul class="studio-navigation">
-          <li><a href="./index.html">Студия</a></li>
-          <li><a href="./portfolio.html">Портфолио</a></li>
-          <li><a href="#">Контакты</a></li>
+        <ul class="header-nav-link">
+          <li><a href="#" class="nav-link">Студия</a></li>
+          <li><a href="./portfolio.html" class="nav-link">Портфолио</a></li>
+          <li><a href="#" class="nav-link">Контакты</a></li>
         </ul>
       </nav>
 
-      <ul>
-        <li class="studio-email">
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </li>
-        <li><a href="tel:+380961111111"> +38 096 111 11 11</a></li>
+      <ul class="heder-contakt-link">
+        <li><a href="mailto:info@devstudio.com" class="contakt-link" >info@devstudio.com</a></li>
+        <li><a href="tel:+380961111111" class="contakt-link"> +38 096 111 11 11</a></li>
       </ul>
     </header>
 
     <!--Секция сайта "Заказать услугу"-->
     <main>
-      <section class="studio-first">
-        <h1 class="studio-h-one">Эффективные решения для вашего бизнеса</h1>
-        <button type="button">Заказать услугу</button>
+      <section>
+        <h1 class="studio-ha">Эффективные решения для вашего бизнеса</h1>
+        <button type="button" class="studio-button">Заказать услугу</button>
       </section>
 
       <!--Секция сайта (Чем мы занимаемся)-->
 
-      <section class="studio-section-second">
+      <section>
         <ul>
           <li>
-            <h3 class="studio-section-second-h">Внимание к деталям</h3>
-            <p class="studio-section-second-p">
+            <h3 class="studio-hc">Внимание к деталям</h3>
+            <p class="studio-p">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
           <li>
-            <h3 class="studio-section-second-h">Пунктуальность</h3>
-            <p class="studio-section-second-p">
+            <h3 class="studio-hc">Пунктуальность</h3>
+            <p class="studio-p">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
           <li>
-            <h3 class="studio-section-second-h">Планирование</h3>
-            <p class="studio-section-second-p">
+            <h3 class="studio-hc">Планирование</h3>
+            <p class="studio-p">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
           <li>
-            <h3 class="studio-section-second-h">Современные технологии</h3>
-            <p class="studio-section-second-p">
+            <h3 class="studio-hc">Современные технологии</h3>
+            <p class="studio-p">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
           </li>
         </ul>
       </section>
-      <section class="studio-section-third">
-        <h2 class="studio-section-third-ha">Чем мы занимаемся</h2>
+      <section>
+        <h2 class="studio-hb">Чем мы занимаемся</h2>
         <ul>
           <li>
             <img
@@ -106,8 +105,8 @@
       </section>
 
       <!--Секция сайта (Наша команда)-->
-      <section class="studio-section-fourth">
-        <h2 class="studio-section-fourth-ha">Наша команда</h2>
+      <section>
+        <h2 class="studio-hb">Наша команда</h2>
         <ul>
           <li>
             <img
@@ -116,8 +115,8 @@
               width="270"
               height="260"
             />
-            <h3 class="studio-section-fourth-hb">Игорь Демьяненко</h3>
-            <p lang="en" class="studio-section-fourth">Product Designer</p>
+            <h3 class="studio-name">Игорь Демьяненко</h3>
+            <p lang="en" class="studio-work">Product Designer</p>
           </li>
           <li>
             <img
@@ -126,8 +125,8 @@
               width="270"
               height="260"
             />
-            <h3 class="studio-section-fourth-hb">Ольга Репина</h3>
-            <p lang="en" class="studio-section-fourth">Frontend Developer</p>
+            <h3>Ольга Репина</h3>
+            <p lang="en" class="studio-work">Frontend Developer</p>
           </li>
           <li>
             <img
@@ -136,8 +135,8 @@
               width="270"
               height="260"
             />
-            <h3 class="studio-section-fourth-hb">Николай Тарасов</h3>
-            <p lang="en" class="studio-section-fourth">Marketing</p>
+            <h3>Николай Тарасов</h3>
+            <p lang="en" class="studio-work">Marketing</p>
           </li>
           <li>
             <img
@@ -146,25 +145,21 @@
               width="270"
               height="260"
             />
-            <h3 class="studio-section-fourth-hb">Михаил Ермаков</h3>
-            <p lang="en" class="studio-section-fourth">UI Designer</p>
+            <h3>Михаил Ермаков</h3>
+            <p lang="en" class="studio-work">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
 
     <!--Footer (Адрес и телефон)-->
-    <footer class="studio-footer">
-      <a href="#" class="studio-logo">WebStudio</a>
+    <footer>
+      <a href="#"class="logo">WebStudio</a>
       <address>
-        <ul>
-          <li class="studio-footer-address">г. Киев, пр-т Леси Украинки, 26</li>
-          <li class="studio-footer-email">
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li class="studio-footer-email">
-            <a href="tel:+380961111111"> +38 096 111 11 11</a>
-          </li>
+        <ul class="heder-contakt-link">
+          <li>г. Киев, пр-т Леси Украинки, 26</li>
+          <li><a href="mailto:info@devstudio.com" class="contakt-link">info@devstudio.com</a></li>
+          <li><a href="tel:+380961111111" class="contakt-link"> +38 096 111 11 11</a></li>
         </ul>
       </address>
     </footer>
