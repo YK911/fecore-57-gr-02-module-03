@@ -1,9 +1,9 @@
 body {
-  font-family: Roboto;
-  color: rgba(33, 33, 33, 1); sans-serif}
+  font-family: Roboto; sans-serif;
+  color: rgba(33, 33, 33, 1); }
 
-.hi {list-style: none;}
-.fi {text-decoration: none;}
+.nimus-a {list-style: none;}
+.nimus-b {text-decoration: none;}
 
 :root {--color-buton: rgba(33, 150, 243, 1); }
 :root {--color-text: rgba(117, 117, 117, 1); }
@@ -67,20 +67,20 @@ letter-spacing: 0.06em;
 text-transform: uppercase;}
 
 /* FOOTER */
-.studio-button {color: rgba(33, 33, 33, 1);background-color: var(--color-mix);font-weight: 700;
+.studio-button { font-family: 'Roboto';
+font-style: normal;color: var(--color-minitext);background-color:   #2196F3;font-weight: 700;
+font-size: 16px;
+line-height: 1.9;
+
+text-align: center;
+letter-spacing: 0.06em; cursor: pointer;}
+.studio-button:hover, .studio-button :focus {color: var(--color-minitext); background-color:  #2196F3; font-weight: 700;
 font-size: 16px;
 line-height: 1.9;
 display: flex;
 align-items: center;
 text-align: center;
-letter-spacing: 0.06em;}
-.studio-button:hover, .studio-button :focus {color: var(--color-minitext); background-color:  var(--color-buton); font-weight: 700;
-font-size: 16px;
-line-height: 1.9;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em}
+letter-spacing: 0.06em; cursor: pointer;}
 
 .studio-hc {font-weight: 700;
 font-size: 14px;
@@ -115,18 +115,20 @@ letter-spacing: 0.03em;; color: var(--color-text);}
 
 /* PORTFOLIO */
 
-.button-link-portfolio .link-portfolio {color: rgba(33, 33, 33, 1);background-color: var(--color-mix); font-weight: 500;
+.button-link-portfolio .link-portfolio {font-family: 'Roboto';
+font-style: normal;color: rgba(33, 33, 33, 1);background-color: var(--color-mix); font-weight: 500;
 font-size: 16px;
 line-height: 1.63;
 text-align: center;
-letter-spacing: 0.03em;}
+letter-spacing: 0.03em; cursor: pointer; }
 
 .button-link-portfolio .link-portfolio:hover,
-.button-link-portfolio .link-portfolio:focus {color: var(--color-minitext); background-color:  var(--color-buton); font-weight: 500;
+.button-link-portfolio .link-portfolio:focus { font-family: 'Roboto';
+font-style: normal;color: var(--color-minitext); background-color:  var(--color-buton); font-weight: 500;
 font-size: 16px;
 line-height: 1.63;
 text-align: center;
-letter-spacing: 0.03em}
+letter-spacing: 0.03em; cursor: pointer;}
 
 .portfolio-h {font-weight: 700;
 font-size: 18px;
