@@ -46,7 +46,7 @@ font-size: 14px;
 line-height: 1.15;
 letter-spacing: 0.02em;
 }
-.heder-contakt-link .contakt-link:hover, .heder-contakt-link .contakt-link :focus {color:  var(--color-buton); ffont-weight: 500;
+.heder-contakt-link .contakt-link:hover, .heder-contakt-link .contakt-link :focus {color:  var(--color-buton); font-weight: 500;
 font-size: 14px;
 line-height: 1.15;
 letter-spacing: 0.02em;}
@@ -67,7 +67,7 @@ letter-spacing: 0.06em;
 text-transform: uppercase;}
 
 /* FOOTER */
-.studio-button { font-family: 'Roboto';
+.studio-button { font-family: inherit;
 font-style: normal;color: var(--color-minitext);background-color:   #2196F3;font-weight: 700;
 font-size: 16px;
 line-height: 1.9;
@@ -115,7 +115,7 @@ letter-spacing: 0.03em;; color: var(--color-text);}
 
 /* PORTFOLIO */
 
-.button-link-portfolio .link-portfolio {font-family: 'Roboto';
+.button-link-portfolio .link-portfolio {font-family: inherit;
 font-style: normal;color: rgba(33, 33, 33, 1);background-color: var(--color-mix); font-weight: 500;
 font-size: 16px;
 line-height: 1.63;
@@ -123,7 +123,7 @@ text-align: center;
 letter-spacing: 0.03em; cursor: pointer; }
 
 .button-link-portfolio .link-portfolio:hover,
-.button-link-portfolio .link-portfolio:focus { font-family: 'Roboto';
+.button-link-portfolio .link-portfolio:focus { font-family: inherit;
 font-style: normal;color: var(--color-minitext); background-color:  var(--color-buton); font-weight: 500;
 font-size: 16px;
 line-height: 1.63;
@@ -149,6 +149,20 @@ var(--color-minitext);}
 
 .email {font-style: normal;
 font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);}
+
+.footer-steert {font-family: inherit;
+font-style: normal;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+color: #FFFFFF;}
+
+.footer-email {font-family: inherit;
+font-style: normal;
 font-size: 14px;
 line-height: 1.7;
 letter-spacing: 0.03em;
