@@ -1,9 +1,9 @@
 body {
-  font-family: Roboto; sans-serif;
+  font-family: Roboto;
   color: rgba(33, 33, 33, 1); }
 
-.nimus-a {list-style: none;}
-.nimus-b {text-decoration: none;}
+.list  {list-style: none;}
+.link {text-decoration: none;}
 
 :root {--color-buton: rgba(33, 150, 243, 1); }
 :root {--color-text: rgba(117, 117, 117, 1); }
@@ -18,7 +18,7 @@ font-size: 26px;
 line-height: 1.2;
 letter-spacing: 0.03em;
 color: var(--color-buton); }
-.studio-black { color: 
+.studio-black { color:   
 rgba(33, 33, 33, 1);} 
 .studio-white { color: 
 rgba(255, 255, 255, 1);}
@@ -56,6 +56,7 @@ letter-spacing: 0.02em;}
 rgba(47, 48, 58, 1);}
 .background-b {background-color:#E5E5E5;}
 .backgraund-c {background-color: var(--color-mix)}
+.backgraund-d {color: var(--color-minitext);}
 
 
 
